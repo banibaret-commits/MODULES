@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://mp2uu2cg0rx1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6qinh"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_0nfyp"]
+material = SubResource("StandardMaterial3D_6qinh")
+size = Vector2(500, 500)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0cu34"]
+albedo_color = Color(0, 0.6745098, 0.85490197, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_0nfyp"]
+radius = 150.0
+height = 10.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b65p7"]
+albedo_color = Color(4.668683e-06, 0.89942205, 0.19771466, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ofgdy"]
+albedo_color = Color(0, 0.8980392, 0.19607843, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5jsnk"]
+albedo_color = Color(0, 0.8980392, 0.19607843, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_j5ipe"]
+bottom_radius = 80.0
+height = 120.0
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_0nfyp"]
+bottom_radius = 60.0
+height = 100.0
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_cjehf"]
+bottom_radius = 80.0
+height = 120.0
+
+[node name="DesertIsland" type="Node3D" unique_id=1286722395]
+
+[node name="Water" type="MeshInstance3D" parent="." unique_id=263931196]
+mesh = SubResource("PlaneMesh_0nfyp")
+surface_material_override/0 = SubResource("StandardMaterial3D_0cu34")
+
+[node name="Island" type="MeshInstance3D" parent="." unique_id=1209347281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.655296, -3.1327553, -27.611664)
+mesh = SubResource("SphereMesh_0nfyp")
+surface_material_override/0 = SubResource("StandardMaterial3D_b65p7")
+
+[node name="Island2" type="MeshInstance3D" parent="." unique_id=2036414565]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.92476, -3.1327553, 48.74565)
+mesh = SubResource("SphereMesh_0nfyp")
+surface_material_override/0 = SubResource("StandardMaterial3D_ofgdy")
+
+[node name="Island3" type="MeshInstance3D" parent="." unique_id=1750307417]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -64.50664, -3.1327553, 48.74565)
+mesh = SubResource("SphereMesh_0nfyp")
+surface_material_override/0 = SubResource("StandardMaterial3D_5jsnk")
+
+[node name="Mountain" type="MeshInstance3D" parent="." unique_id=763086117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.55701, 4, -38.177742)
+mesh = SubResource("CylinderMesh_j5ipe")
+
+[node name="Mountain2" type="MeshInstance3D" parent="." unique_id=832989608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -133.70737, 4, 22.708725)
+mesh = SubResource("CylinderMesh_0nfyp")
+
+[node name="Mountain3" type="MeshInstance3D" parent="." unique_id=1849603654]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -128.95511, 4, 77.15893)
+mesh = SubResource("CylinderMesh_cjehf")
+
+[node name="Mountain4" type="MeshInstance3D" parent="." unique_id=1984619235]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -96.565445, 4, 126.77631)
+mesh = SubResource("CylinderMesh_0nfyp")

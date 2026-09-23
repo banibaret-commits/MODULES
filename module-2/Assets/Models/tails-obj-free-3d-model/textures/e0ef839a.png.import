@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqm45ofqj4brh"
-path.s3tc="res://.godot/imported/86b0af7b.png-902cb4770122cd63494d08c6ace51c07.s3tc.ctex"
+uid="uid://br4ykest8nt0i"
+path.s3tc="res://.godot/imported/e0ef839a.png-0037c99a3ab28ad3ea2352b3b06a71db.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/tails-obj-free-3d-model/textures/86b0af7b.png"
-dest_files=["res://.godot/imported/86b0af7b.png-902cb4770122cd63494d08c6ace51c07.s3tc.ctex"]
+source_file="res://Assets/Models/tails-obj-free-3d-model/textures/e0ef839a.png"
+dest_files=["res://.godot/imported/e0ef839a.png-0037c99a3ab28ad3ea2352b3b06a71db.s3tc.ctex"]
 
 [params]
 

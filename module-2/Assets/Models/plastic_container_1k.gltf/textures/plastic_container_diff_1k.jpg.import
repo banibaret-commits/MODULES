@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0lpb0rdobf41"
-path.s3tc="res://.godot/imported/104d1a3b.png-16082f3d102f4942451b8d937a7021c7.s3tc.ctex"
+uid="uid://yfgar0bssrho"
+path.s3tc="res://.godot/imported/plastic_container_diff_1k.jpg-5c0048b68234159bd58f06233bc3f849.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/tails-obj-free-3d-model/textures/104d1a3b.png"
-dest_files=["res://.godot/imported/104d1a3b.png-16082f3d102f4942451b8d937a7021c7.s3tc.ctex"]
+source_file="res://Assets/Models/plastic_container_1k.gltf/textures/plastic_container_diff_1k.jpg"
+dest_files=["res://.godot/imported/plastic_container_diff_1k.jpg-5c0048b68234159bd58f06233bc3f849.s3tc.ctex"]
 
 [params]
 

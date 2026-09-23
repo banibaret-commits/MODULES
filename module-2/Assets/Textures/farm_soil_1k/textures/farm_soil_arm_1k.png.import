@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh7cnybbui7nj"
-path.s3tc="res://.godot/imported/plastic_container_nor_gl_1k.jpg-2c5f696d05b8af18b7ce15da1048f7f5.s3tc.ctex"
+uid="uid://bcpa3xfkssad5"
+path.s3tc="res://.godot/imported/farm_soil_arm_1k.png-ac7f210980c4a71a77665be647ff163f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/plastic_container_1k.gltf/textures/plastic_container_nor_gl_1k.jpg"
-dest_files=["res://.godot/imported/plastic_container_nor_gl_1k.jpg-2c5f696d05b8af18b7ce15da1048f7f5.s3tc.ctex"]
+source_file="res://Assets/Textures/farm_soil_1k/textures/farm_soil_arm_1k.png"
+dest_files=["res://.godot/imported/farm_soil_arm_1k.png-ac7f210980c4a71a77665be647ff163f.s3tc.ctex"]
 
 [params]
 
@@ -22,12 +22,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://Assets/Models/plastic_container_1k.gltf/textures/plastic_container_nor_gl_1k.jpg"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

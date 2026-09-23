@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br4ykest8nt0i"
-path.s3tc="res://.godot/imported/e0ef839a.png-174a6edb6f63ba97c6bb562858aa1875.s3tc.ctex"
+uid="uid://lsnvbgxfj3f1"
+path.s3tc="res://.godot/imported/farm_soil_ao_1k.png-782c56a1857d342593a29022b29f4915.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/tails-obj-free-3d-model/textures/e0ef839a.png"
-dest_files=["res://.godot/imported/e0ef839a.png-174a6edb6f63ba97c6bb562858aa1875.s3tc.ctex"]
+source_file="res://Assets/Textures/farm_soil_1k/textures/farm_soil_ao_1k.png"
+dest_files=["res://.godot/imported/farm_soil_ao_1k.png-782c56a1857d342593a29022b29f4915.s3tc.ctex"]
 
 [params]
 
@@ -26,8 +26,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=8
+roughness/src_normal="res://Assets/Textures/farm_soil_1k/textures/farm_soil_nor_gl_1k.png"
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2
