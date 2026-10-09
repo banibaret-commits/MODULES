@@ -1,5 +1,0 @@
-newmtl TetrahedronMaterial
-
-Kd 1.0 1.0 1.0
-
-map_Kd tetrahedron.png
